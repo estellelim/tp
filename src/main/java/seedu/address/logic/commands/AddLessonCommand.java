@@ -26,7 +26,7 @@ public class AddLessonCommand extends Command {
     public static final String MESSAGE_USAGE = COMMAND_WORD
             + ": Adds a lesson taught by the tutor to the tutee identified by their respective index numbers "
             + "in the displayed persons list.\n"
-            + "Parameters: TUTORINDEX TUTEEINDEX (must be positive integers)\n"
+            + "Parameters: TUTOR_INDEX TUTEE_INDEX (must be positive integers)\n"
             + "Example: " + COMMAND_WORD + " 1 3";
 
     public static final String MESSAGE_ADD_LESSON_SUCCESS = "Added Lesson: %1$s";
@@ -35,7 +35,7 @@ public class AddLessonCommand extends Command {
 
     public static final String MESSAGE_INVALID_TUTEE_INDEX = "The person index provided is not a Tutee";
 
-    public static final String MESSAGE_DUPLICATE_LESSON = "This lesson already exists in Voluntier";
+    public static final String MESSAGE_DUPLICATE_LESSON = "This lesson already exists in VolunTier";
 
     private final Index tutorIndex;
 
