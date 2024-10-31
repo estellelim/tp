@@ -21,7 +21,7 @@ public class ImportCommand extends Command {
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Adds a list of persons provided in"
             + " the provided file. \n"
             + "Example: " + COMMAND_WORD + " "
-            + PREFIX_FILEPATH + "~/data/test.txt";
+            + PREFIX_FILEPATH + "~/data/test.csv";
 
     public static final String MESSAGE_SUCCESS = "%d persons added.";
     public static final String MESSAGE_FAILED = "Rows with duplicates: %s.";

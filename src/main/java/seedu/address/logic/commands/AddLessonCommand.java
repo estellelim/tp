@@ -35,7 +35,7 @@ public class AddLessonCommand extends Command {
 
     public static final String MESSAGE_INVALID_TUTEE_INDEX = "The person index provided is not a Tutee";
 
-    public static final String MESSAGE_DUPLICATE_LESSON = "This lesson already exists in the address book";
+    public static final String MESSAGE_DUPLICATE_LESSON = "This lesson already exists in Voluntier";
 
     private final Index tutorIndex;
 
